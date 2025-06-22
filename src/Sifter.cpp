@@ -27,6 +27,18 @@ std::vector<std::string> Sifter::removeVowels() {
     return result;
 }
 
+std::string Sifter::removeVowels(const std::string& input) {
+    std::string output;
+    for (char c : input) {
+        // Remove both lowercase and uppercase vowels
+        if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u' &&
+            c != 'A' && c != 'E' && c != 'I' && c != 'O' && c != 'U') {
+            output += c;
+        }
+    }
+    return output;
+}
+
 void Sifter::doStuff() {
     int x = 5; 
 }
