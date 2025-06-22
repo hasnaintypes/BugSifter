@@ -16,13 +16,13 @@ g++ -o bugsifter src/*.cpp
 3. Wait for the magic.
 
 ## What it Does?
-- Removes the vowels (sometimes)
+- Removes the vowels 
 - Loggs to a file called `bugsifter.log`
-- Has a clearScreen function (not used lol)
+- Has a clearScreen function
 
 ## TODO
 - More filters
 - Multithreading? maybe idk
 - Fix bugs if found by someone
 
-PS: Contributions are welcome (if you dare)
+PS: Contributions are welcome 
